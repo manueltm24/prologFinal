@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pucmm.prologFinal.Controladora.ConsultasControladora">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="379.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="324.0">
+               <children>
+                  <ComboBox fx:id="comboBoxSintormas" prefWidth="150.0" />
+                  <Button mnemonicParsing="false" onAction="#agregarSintoma" text="Agregar" />
+               </children>
+            </HBox>
+            <ListView fx:id="listaEnfermedades" prefHeight="200.0" prefWidth="200.0" />
+            <HBox alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="200.0" translateX="60.0" translateY="30.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#consultar" text="Consultar" />
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

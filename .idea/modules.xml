@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/prologFinal.iml" filepath="$PROJECT_DIR$/.idea/modules/prologFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/prologFinal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/prologFinal_main.iml" group="prologFinal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/prologFinal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/prologFinal_test.iml" group="prologFinal" />
+    </modules>
+  </component>
+</project>

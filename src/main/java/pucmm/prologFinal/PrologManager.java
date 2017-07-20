@@ -92,8 +92,9 @@ public class PrologManager {
             for(int j=0;j< sintomas.size();j++){
                 System.out.println("Usted tiene " + sintomas.get(j) + "?");
 
+                System.out.println("RESPONDE: S/N (MAYUSCULA)---> :");
                 Scanner sc =new Scanner(System.in);
-                String Respuesta = sc.next();
+                String Respuesta = sc.nextLine();
 
                 if(!Respuesta.equals("S"))
                     break;

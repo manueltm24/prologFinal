@@ -32,7 +32,7 @@ public class ConsultasControladora implements Initializable {
 
     @FXML
     void consultar(ActionEvent event) {
-        PrologManager.getInstance().consultarEnfermedades(listaEnfermedades.getSelectionModel().getSelectedItem());
+        //PrologManager.getInstance().consultarEnfermedades(listaEnfermedades.getSelectionModel().getSelectedItem());
 
 
     }
@@ -49,7 +49,7 @@ public class ConsultasControladora implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb){
-        ObservableList<String> sintomas = FXCollections.observableArrayList(PrologManager.getInstance().consultaSintomas());
-        comboBoxSintormas.setItems(sintomas);
+//        ObservableList<String> sintomas = FXCollections.observableArrayList(PrologManager.getInstance().consultaSintomas());
+//        comboBoxSintormas.setItems(sintomas);
     }
 }

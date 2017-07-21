@@ -275,7 +275,7 @@ pregunta(Obj, Sint):-nl,write(Obj),write(' '),
 			((Ans=y, assert(known(Obj, Sint, true)));(assert(known(Obj, Sint, false)),fail)).
 			
 diagnosticar:-nl,write('Diagnosticando enfermedad..........'),nl, enfermedad(sintoma,Enfermedad) ,!,nl,
-			write('Usted posiblemente puede tener'), write(Enfermedad).
+			write('Usted posiblemente puede padecer de:'), write(Enfermedad).
 diagnosticar:- nl, write('Lo sentimos, no tenemos una enfermedad para tus sintomas!!').
 
 start:-abolish(known/3),dynamic(known/3), retractall(known/3), diagnosticar,nl,nl, write('Intentar de nuevo ? (y/n)'),read(Resp),\+ Resp=y,
